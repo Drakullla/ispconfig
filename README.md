@@ -1,18 +1,11 @@
-[![Build Status](https://travis-ci.org/servisys/ispconfig_setup.svg?branch=master)](https://travis-ci.org/servisys/ispconfig_setup)
-
 # README #
 
-[![PayPayl donate button](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TB4Q3UJDC5JDJ "Help US support this project using Paypal")
-
-# Newsletter #
-Subscribe to our newsletter to receive information about new version of the script
-The link is here: http://eepurl.com/cAzq95
-We'll use only to inform you on new version of the script :)
-
-
 # Version #
-<b>v.3.0.5</b>
-
+<b>v.3.0.7</b>
+Ubuntu 20.04
+Added support for Ubuntu 20.04 and php7.4 mysql-8 Jalkt-2.21
+# Version #
+<b>v.3.0.6</b>
 Debian 10 changes file path for root use : 
 	su -
 	
