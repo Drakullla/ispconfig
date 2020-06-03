@@ -1,11 +1,11 @@
 # README #
 
 # Version #
-<b>v.3.0.7</b>
+<b>v.3.0.6</b>
 Ubuntu 20.04
 Added support for Ubuntu 20.04 and php7.4 mysql-8 Jalkit-2.21
 # Version #
-<b>v.3.0.6</b>
+<b>v.3.0.5</b>
 Debian 10 changes file path for root use : 
 	su -
 	
