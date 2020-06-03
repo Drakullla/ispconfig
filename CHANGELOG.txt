@@ -1,3 +1,6 @@
+v. 3. 0. 6
+- Добавлена поддержка ubuntu20.04 и php7.4 mysql-8 jailkit-2.21
+
 v.3.0.5
 - Added support for debain10 and php7.3
 
