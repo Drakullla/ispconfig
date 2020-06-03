@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------
-# Function: InstallWebServer Ubuntu 18.04
+# Function: InstallWebServer Ubuntu 20.04
 #    Install and configure Apache2, php + modules
 #---------------------------------------------------------------------
 InstallWebServer() {
@@ -15,7 +15,7 @@ InstallWebServer() {
 	apt_install apache2 apache2-doc apache2-utils libapache2-mod-php libapache2-mod-fcgid apache2-suexec-pristine libruby libapache2-mod-python
 	echo -e "[${green}DONE${NC}]\n"
 	echo -n "Installing PHP and modules... "
-	# apt_install php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-imap php7.2-cli php7.2-cgi php-pear mcrypt imagemagick libruby php7.2-curl php7.2-intl php7.2-pspell php7.2-recode php7.2-sqlite3 php7.2-tidy php7.2-xmlrpc php7.2-xsl memcached php-memcache php-imagick php-gettext php7.2-zip php7.2-mbstring php7.2-fpm php7.2-opcache php-apcu
+	# apt_install php7.4 php7.4-common php7.4-gd php7.4-mysql php7.4-imap php7.4-cli php7.4-cgi php-pear php7.4-curl php7.4-intl php7.4-pspell php7.4-sqlite3 php7.4-tidy php7.4-xmlrpc php7.4-xsl php-memcache php-imagick php7.4-zip php7.4-mbstring php-soap php7.4-soap
 	apt_install php7.4 php7.4-common php7.4-gd php7.4-mysql php7.4-imap php7.4-cli php7.4-cgi php-pear php7.4-curl php7.4-intl php7.4-pspell php7.4-sqlite3 php7.4-tidy php7.4-xmlrpc php7.4-xsl php-memcache php-imagick php7.4-zip php7.4-mbstring php-soap php7.4-soap
 	echo -e "[${green}DONE${NC}]\n"
 	echo -n "Installing Opcache and APCu... "
@@ -74,7 +74,6 @@ InstallWebServer() {
 	apt_install nginx
 	service nginx start
 	echo -e "[${green}DONE${NC}]\n"
-	# apt_install php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-imap php7.2-cli php7.2-cgi php-pear php-auth php7.2-mcrypt mcrypt imagemagick libruby php7.2-curl php7.2-intl php7.2-pspell php7.2-recode php7.2-sqlite3 php7.2-tidy php7.2-xmlrpc php7.2-xsl memcached php-memcache php-imagick php-gettext php7.2-zip php7.2-mbstring php7.2-fpm php7.2-opcache php-apcu
 	echo -n "Installing PHP-FPM... "
 	apt_install php7.4-fpm
 	echo -e "[${green}DONE${NC}]\n"
